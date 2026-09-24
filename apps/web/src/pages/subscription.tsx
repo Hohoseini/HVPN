@@ -156,7 +156,7 @@ export default function SubscriptionPage() {
               <RailLogo className="h-7 w-7" />
             </div>
             <div className="min-w-0">
-              <div className="font-heading text-2xl leading-tight">SideRail</div>
+              <div className="font-heading text-2xl leading-tight">HVPN</div>
               <div className="truncate text-sm font-base text-text/60">{user.email}</div>
             </div>
           </div>

@@ -211,7 +211,7 @@ const en = {
   panelInitialized: "Panel initialized",
   passwordsMismatch: "Passwords do not match",
   welcomeBack: "Welcome back",
-  signInPanel: "Sign in to your SideRail panel",
+  signInPanel: "Sign in to your HVPN panel",
   signIn: "Sign in",
   signingIn: "Signing in...",
   enterCredentials: "Enter your username and password",
@@ -274,7 +274,7 @@ const en = {
   detailPanelInit: "panel initialized",
 
   // welcome dialog
-  welcomeTitle: "Welcome to SideRail",
+  welcomeTitle: "Welcome to HVPN",
   welcomeCrafted: "This panel is crafted with care by",
   welcomeFree: "completely free",
   welcomeAndShared: "and shared",
@@ -491,7 +491,7 @@ const ru: Dict = {
   panelInitialized: "Панель инициализирована",
   passwordsMismatch: "Пароли не совпадают",
   welcomeBack: "С возвращением",
-  signInPanel: "Войдите в свою панель SideRail",
+  signInPanel: "Войдите в свою панель HVPN",
   signIn: "Войти",
   signingIn: "Вход...",
   enterCredentials: "Введите имя пользователя и пароль",
@@ -552,7 +552,7 @@ const ru: Dict = {
   actBotTest: "Бот проверен",
   detailPanelInit: "панель инициализирована",
 
-  welcomeTitle: "Добро пожаловать в SideRail",
+  welcomeTitle: "Добро пожаловать в HVPN",
   welcomeCrafted: "Эта панель создана с заботой автором",
   welcomeFree: "полностью бесплатно",
   welcomeAndShared: "и распространяется",
@@ -764,7 +764,7 @@ const zh: Dict = {
   panelInitialized: "面板已初始化",
   passwordsMismatch: "两次密码不一致",
   welcomeBack: "欢迎回来",
-  signInPanel: "登录你的 SideRail 面板",
+  signInPanel: "登录你的 HVPN 面板",
   signIn: "登录",
   signingIn: "登录中...",
   enterCredentials: "请输入用户名和密码",
@@ -824,7 +824,7 @@ const zh: Dict = {
   actBotTest: "测试了机器人",
   detailPanelInit: "面板已初始化",
 
-  welcomeTitle: "欢迎使用 SideRail",
+  welcomeTitle: "欢迎使用 HVPN",
   welcomeCrafted: "此面板由以下作者精心打造",
   welcomeFree: "完全免费",
   welcomeAndShared: "并分享",

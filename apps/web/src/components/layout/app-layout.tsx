@@ -56,7 +56,7 @@ function Brand() {
         <RailLogo className="h-5 w-5" />
       </div>
       <div className="leading-tight">
-        <div className="font-heading text-lg tracking-tight">SideRail</div>
+        <div className="font-heading text-lg tracking-tight">HVPN</div>
         <div className="text-[10px] uppercase tracking-widest text-text/60">Hohoseini</div>
       </div>
     </div>

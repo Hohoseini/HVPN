@@ -38,7 +38,7 @@ export function QrCode({ value, size = 180, className }: QrCodeProps) {
           ctx.roundRect(x, y, w, w, r);
           ctx.fill();
 
-          // official SideRail logo (viewBox 67 15 144 144)
+          // official HVPN logo (viewBox 67 15 144 144)
           ctx.save();
           const logoSize = box * 0.6;
           ctx.translate(c - logoSize / 2, c - logoSize / 2);

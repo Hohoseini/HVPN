@@ -54,7 +54,7 @@ export function AuthShell({
                 <RailLogo className="h-8 w-8" />
               </div>
               <div>
-                <div className="font-heading text-4xl leading-none tracking-tight">SideRail</div>
+                <div className="font-heading text-4xl leading-none tracking-tight">HVPN</div>
                 <div className="mt-1 text-sm font-base text-mtext/70">
                   Xray-core management panel
                 </div>
@@ -94,7 +94,7 @@ export function AuthShell({
                 <div className="grid h-12 w-12 place-items-center rounded-base border-2 border-border bg-main text-mtext neo-shadow animate-float">
                   <RailLogo className="h-7 w-7" />
                 </div>
-                <div className="font-heading text-2xl tracking-tight">SideRail</div>
+                <div className="font-heading text-2xl tracking-tight">HVPN</div>
               </div>
               <h1 className="font-heading text-3xl tracking-tight">{heading}</h1>
               <p className="mt-1 text-sm font-base text-text/60">{sub}</p>
