@@ -1,0 +1,16 @@
+node_modules
+**/node_modules
+dist
+**/dist
+data
+*.sqlite
+*.sqlite3
+*.db
+.git
+.gitignore
+.env
+.env.local
+*.log
+README.md
+.DS_Store
+xray-bin

@@ -1,0 +1,16 @@
+node_modules
+dist
+build
+.env
+.env.local
+*.log
+data
+*.sqlite
+*.sqlite3
+*.db
+.DS_Store
+apps/web/dist
+apps/server/dist
+apps/server/public
+xray-bin
+*.tsbuildinfo

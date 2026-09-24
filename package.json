@@ -1,0 +1,27 @@
+{
+  "name": "hvpn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "hvpn - Xray-core VPN management panel with one-click Railway deploy",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "workspaces": [
+    "apps/server",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n web,server -c magenta,cyan \"npm:dev:web\" \"npm:dev:server\"",
+    "dev:web": "npm run dev --workspace apps/web",
+    "dev:server": "npm run dev --workspace apps/server",
+    "build": "npm run build:web && npm run build:server",
+    "build:web": "npm run build --workspace apps/web",
+    "build:server": "npm run build --workspace apps/server",
+    "start": "npm run start --workspace apps/server",
+    "typecheck": "npm run typecheck --workspace apps/web && npm run typecheck --workspace apps/server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
