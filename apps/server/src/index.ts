@@ -1,5 +1,5 @@
 /**
- * SideRail - Xray-core VPN management panel
+ * HVPN - Xray-core VPN management panel
  * Copyright (c) 2025 Hohoseini. All rights reserved.
  * Official repository: https://github.com/Hohoseini/HVPN
  *
@@ -27,9 +27,9 @@ import { applyTrafficReset } from "./users.js";
 import { rateLimit } from "./ratelimit.js";
 import { sendDailyBackup } from "./bot.js";
 import { refreshIpInfo } from "./ipinfo.js";
-import { SIDERAIL_SIGNATURE, watermark } from "./brand.js";
+import { HVPN_SIGNATURE, watermark } from "./brand.js";
 
-console.log(SIDERAIL_SIGNATURE);
+console.log(HVPN_SIGNATURE);
 
 migrate();
 seedInbounds();
@@ -80,7 +80,7 @@ const server = http.createServer((req, res) => {
 attachTunnel(server);
 
 server.listen(config.port, config.host, async () => {
-  console.log(`SideRail listening on http://${config.host}:${config.port}`);
+  console.log(`HVPN listening on http://${config.host}:${config.port}`);
   await startXray();
   void refreshIpInfo();
 });

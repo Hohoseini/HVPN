@@ -45,7 +45,7 @@ function assetName(): string {
 function download(url: string, dest: string): Promise<void> {
   return new Promise((resolve, reject) => {
     const file = createWriteStream(dest);
-    const req = https.get(url, { headers: { "User-Agent": "SideRail" } }, (res) => {
+    const req = https.get(url, { headers: { "User-Agent": "HVPN" } }, (res) => {
       if (res.statusCode && res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         file.close();
         download(res.headers.location, dest).then(resolve).catch(reject);

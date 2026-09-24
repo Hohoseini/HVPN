@@ -94,7 +94,7 @@ function setAuthCookie(res: import("express").Response, token: string): void {
 }
 
 api.get("/status", (_req, res) => {
-  res.json({ setup: isSetupDone(), name: "SideRail" });
+  res.json({ setup: isSetupDone(), name: "HVPN" });
 });
 
 api.post("/setup", (req, res) => {
@@ -321,7 +321,7 @@ api.delete("/activity", requirePermission("activity"), (req: AuthedRequest, res)
 api.get("/settings", requirePermission("settings"), (_req, res) => {
   res.json({
     xrayVersion: getSetting("xray_version") || "",
-    subTitle: getSetting("sub_title") || "SideRail",
+    subTitle: getSetting("sub_title") || "HVPN",
   });
 });
 
@@ -437,7 +437,7 @@ api.delete("/admins/:id", requireOwner, (req: AuthedRequest, res) => {
 api.get("/backup/export", requirePermission("dashboard"), (req: AuthedRequest, res) => {
   logActivity(req.admin!.username, "backup_export", "");
   res.setHeader("Content-Type", "application/json");
-  res.setHeader("Content-Disposition", `attachment; filename="siderail-backup-${Date.now()}.json"`);
+  res.setHeader("Content-Disposition", `attachment; filename="hvpn-backup-${Date.now()}.json"`);
   res.send(JSON.stringify(exportData(), null, 2));
 });
 

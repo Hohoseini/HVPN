@@ -100,11 +100,11 @@ export function buildClashConfig(
     yaml.push(`  - { ${parts.join(", ")} }`);
   }
   yaml.push("proxy-groups:");
-  yaml.push(`  - name: SideRail`);
+  yaml.push(`  - name: HVPN`);
   yaml.push(`    type: select`);
   yaml.push(`    proxies: [${names.join(", ")}]`);
   yaml.push("rules:");
-  yaml.push("  - MATCH,SideRail");
+  yaml.push("  - MATCH,HVPN");
   return yaml.join("\n");
 }
 
@@ -174,7 +174,7 @@ export function buildSingboxConfig(
     outbounds: [
       {
         type: "selector",
-        tag: "SideRail",
+        tag: "HVPN",
         outbounds: [...tags, "direct"],
         default: tags[0],
       },

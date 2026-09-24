@@ -1,9 +1,9 @@
 /**
- * SideRail - Xray-core VPN management panel
+ * HVPN - Xray-core VPN management panel
  * Copyright (c) 2025 Hohoseini. All rights reserved.
  * Official repository: https://github.com/Hohoseini/HVPN
  *
- * Licensed under the SideRail Proprietary License (see LICENSE).
+ * Licensed under the HVPN Proprietary License (see LICENSE).
  * Unauthorized selling, white-labeling, or removal of attribution,
  * branding, or the embedded authorship identifiers is prohibited.
  * Watermark: sr-Hohoseini-2025-9f4c1a7e

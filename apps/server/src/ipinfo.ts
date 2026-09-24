@@ -11,7 +11,7 @@ let cachedAt = 0;
 
 function fetchJson(url: string): Promise<Record<string, unknown> | null> {
   return new Promise((resolve) => {
-    const req = https.get(url, { headers: { "User-Agent": "SideRail" }, timeout: 8000 }, (res) => {
+    const req = https.get(url, { headers: { "User-Agent": "HVPN" }, timeout: 8000 }, (res) => {
       let data = "";
       res.on("data", (c) => (data += c));
       res.on("end", () => {

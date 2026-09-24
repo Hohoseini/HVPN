@@ -103,7 +103,7 @@ sub.get("/:token/clash", (req, res) => {
     return;
   }
   res.setHeader("Content-Type", "text/yaml; charset=utf-8");
-  res.setHeader("Profile-Title", Buffer.from(`SideRail ${data.user.email}`).toString("base64"));
+  res.setHeader("Profile-Title", Buffer.from(`HVPN ${data.user.email}`).toString("base64"));
   res.send(buildClashConfig(host, data.user, data.inbounds));
 });
 
@@ -148,7 +148,7 @@ sub.get("/:token", (req, res) => {
   res.setHeader("Content-Type", "text/plain; charset=utf-8");
   res.setHeader("Subscription-Userinfo", subUserInfo(data.user));
   res.setHeader("Profile-Update-Interval", "12");
-  res.setHeader("Profile-Title", Buffer.from(`SideRail ${data.user.email}`).toString("base64"));
+  res.setHeader("Profile-Title", Buffer.from(`HVPN ${data.user.email}`).toString("base64"));
   res.send(Buffer.from(body).toString("base64"));
 });
 
