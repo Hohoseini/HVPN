@@ -27,7 +27,7 @@ export function seedInbounds(): void {
   );
   for (const s of SEED_INBOUNDS) {
     const port = config.inboundBasePort + offset;
-    const path = `/HVPN/${s.transport}-${nanoid(8)}`;
+    const path = `/SideRail/${s.transport}-${nanoid(8)}`;
     insert.run(s.tag, s.protocol, s.transport, port, path, "", Date.now());
     offset += 1;
   }

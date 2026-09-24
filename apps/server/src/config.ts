@@ -3,7 +3,7 @@ import fs from "node:fs";
 import os from "node:os";
 import crypto from "node:crypto";
 
-const dataDir = process.env.HVPN_DATA_DIR || path.join(process.cwd(), "data");
+const dataDir = process.env.SIDERAIL_DATA_DIR || path.join(process.cwd(), "data");
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 
 const xrayDir = process.env.XRAY_DIR || path.join(dataDir, "xray");
@@ -25,7 +25,7 @@ function resolveSecret(): string {
 export const config = {
   dataDir,
   xrayDir,
-  dbPath: path.join(dataDir, "HVPN.db"),
+  dbPath: path.join(dataDir, "siderail.db"),
   xrayAccessLog: path.join(xrayDir, "access.log"),
   port: Number(process.env.PORT || 8080),
   host: "0.0.0.0",
