@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --main: #a3e635;
+  /* --main: #a3e635; */
+  --main: #35e6e6;
   --overlay: rgba(0, 0, 0, 0.8);
   --bg: #dfe5f2;
   --bw: #fff;
@@ -19,7 +20,7 @@
 }
 
 .dark {
-  --main: #a3e635;
+  --main: #35e6e6;
   --overlay: rgba(0, 0, 0, 0.85);
   --bg: #0b0b0f;
   --bw: #16161d;
@@ -27,7 +28,7 @@
   --border: #000;
   --text: #e8e8ea;
   --mtext: #000;
-  --ring: #a3e635;
+  --ring: #35e6e6;
   --ring-offset: #0b0b0f;
   --shadow: 4px 4px 0px 0px #000;
 }

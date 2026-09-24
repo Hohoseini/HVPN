@@ -43,7 +43,7 @@ export function WelcomeDialog() {
 
         <div className="space-y-4">
           <p className="text-center text-sm font-base text-text/70">
-            {t("welcomeCrafted")} <span className="font-heading text-text">icubaby</span>{" "}
+            {t("welcomeCrafted")} <span className="font-heading text-text">Hohoseini</span>{" "}
             {t("welcomeAndShared")} <span className="font-heading text-text">{t("welcomeFree")}</span>.
           </p>
 

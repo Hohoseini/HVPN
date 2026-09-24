@@ -1,12 +1,12 @@
 /**
  * SideRail - Xray-core VPN management panel
- * Copyright (c) 2025 icubaby. All rights reserved.
- * Official repository: https://github.com/icubaby/SideRail
+ * Copyright (c) 2025 Hohoseini. All rights reserved.
+ * Official repository: https://github.com/Hohoseini/SideRail
  *
  * Licensed under the SideRail Proprietary License (see LICENSE).
  * Unauthorized selling, white-labeling, or removal of attribution,
  * branding, or the embedded authorship identifiers is prohibited.
- * Watermark: sr-icubaby-2025-9f4c1a7e
+ * Watermark: sr-Hohoseini-2025-9f4c1a7e
  */
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { useAuth } from "./lib/auth";

@@ -190,7 +190,7 @@ export function UserFormDialog({
               value={email}
               onChange={(e) => setEmail(e.target.value.slice(0, 32))}
               maxLength={32}
-              placeholder="icubaby/SideRail"
+              placeholder="HVPN"
               autoFocus
             />
           </div>

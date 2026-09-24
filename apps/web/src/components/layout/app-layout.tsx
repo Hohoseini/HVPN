@@ -28,7 +28,7 @@ import { Button } from "@/components/ui/button";
 import { RailLogo } from "@/components/rail-logo";
 import { AnimatedBackground } from "@/components/animated-background";
 
-const GITHUB_URL = "https://github.com/icubaby/SideRail";
+const GITHUB_URL = "https://github.com/Hohoseini/HVPN";
 
 import type { Permission } from "@/lib/types";
 
@@ -57,7 +57,7 @@ function Brand() {
       </div>
       <div className="leading-tight">
         <div className="font-heading text-lg tracking-tight">SideRail</div>
-        <div className="text-[10px] uppercase tracking-widest text-text/60">icubaby</div>
+        <div className="text-[10px] uppercase tracking-widest text-text/60">Hohoseini</div>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 /**
  * SideRail - Xray-core VPN management panel
- * Copyright (c) 2025 icubaby. All rights reserved.
- * Official repository: https://github.com/icubaby/SideRail
+ * Copyright (c) 2025 Hohoseini. All rights reserved.
+ * Official repository: https://github.com/Hohoseini/HVPN
  *
- * Licensed under the SideRail Proprietary License (see LICENSE).
+ * Licensed under the hvpn Proprietary License (see LICENSE).
  * Unauthorized selling, white-labeling, or removal of attribution,
  * branding, or the embedded authorship identifiers is prohibited.
- * Watermark: sr-icubaby-2025-9f4c1a7e
+ * Watermark: sr-hvpn-2025-9f4c1a7e
  */
 import "dotenv/config";
 import http from "node:http";
@@ -39,9 +39,9 @@ seedDefaultRouting();
 const app = express();
 app.disable("x-powered-by");
 app.use((_req, res, next) => {
-  res.setHeader("X-Powered-By", "SideRail by icubaby");
-  res.setHeader("X-SideRail-Author", "icubaby");
-  res.setHeader("X-SideRail-Repo", "https://github.com/icubaby/SideRail");
+  res.setHeader("X-Powered-By", "hvpn by Hohoseini");
+  res.setHeader("X-hvpn-Author", "Hohoseini");
+  res.setHeader("X-hvpn-Repo", "https://github.com/Hohoseini/HVPN");
   next();
 });
 app.use(express.json({ limit: "25mb" }));
