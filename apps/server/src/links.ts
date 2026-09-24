@@ -19,7 +19,7 @@ interface LinkContext {
 }
 
 function label(inbound: Inbound): string {
-  return `Hohoseini/HVPN - ${inbound.tag}`;
+  return `HVPN - ${inbound.tag}`;
 }
 
 function commonQuery(ctx: LinkContext): Record<string, string> {
