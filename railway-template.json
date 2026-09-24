@@ -1,10 +1,10 @@
 {
-  "name": "SideRail",
+  "name": "HVPN",
   "description": "Xray-core VPN management panel — VLESS/VMess/Trojan over WS, XHTTP and HTTPUpgrade. TLS terminated at the Railway edge on port 443.",
   "tags": ["vpn", "xray", "proxy", "nodejs", "react"],
   "services": [
     {
-      "name": "siderail",
+      "name": "hvpn",
       "source": {
         "type": "dockerfile",
         "path": "Dockerfile"
@@ -18,7 +18,7 @@
           "description": "Xray-core release to download on first boot.",
           "default": "v26.9.9"
         },
-        "SIDERAIL_DATA_DIR": {
+        "HVPN_DATA_DIR": {
           "description": "Persistent data directory. Mount a volume here.",
           "default": "/data"
         }

@@ -1,4 +1,4 @@
-# Railway service configuration for SideRail
+# Railway service configuration for HVPN
 # The static index.html serving path is resolved automatically at runtime.
 
 [build]
@@ -13,4 +13,4 @@ restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 10
 
 [[services]]
-name = "siderail"
+name = "hvpn"

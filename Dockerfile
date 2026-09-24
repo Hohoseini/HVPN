@@ -27,7 +27,7 @@ COPY --from=build /app/apps/server/dist ./apps/server/dist
 COPY --from=build /app/apps/web/dist ./public
 
 ENV PORT=8080
-ENV SIDERAIL_DATA_DIR=/data
+ENV HVPN_DATA_DIR=/data
 ENV XRAY_VERSION=v26.9.9
 EXPOSE 8080
 

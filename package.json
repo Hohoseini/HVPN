@@ -1,8 +1,8 @@
 {
-  "name": "siderail",
+  "name": "hvpn",
   "version": "1.0.0",
   "private": true,
-  "description": "SideRail - Xray-core VPN management panel with one-click Railway deploy",
+  "description": "HVPN - Xray-core VPN management panel with one-click Railway deploy",
   "license": "MIT",
   "engines": {
     "node": ">=22.5.0"
