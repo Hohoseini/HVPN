@@ -276,10 +276,10 @@ const en = {
   // welcome dialog
   welcomeTitle: "Welcome to HVPN",
   welcomeCrafted: "This panel is crafted with care by",
-  welcomeFree: "completely free",
+  welcomeFree: "with Friend",
   welcomeAndShared: "and shared",
-  doNotSell: "do not sell",
-  welcomeSellWarn: "this panel or its configs. Keep it free and keep the attribution intact.",
+  doNotSell: "Use it!",
+  welcomeSellWarn: "This panel or its Configs was built for friends.",
   welcomeStar: "If you enjoy the project, a",
   star: "star",
   welcomeStarEnd: "would mean a lot and keeps it alive.",
