@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="60" viewBox="0 0 560 60" fill="none" font-family="'Segoe UI', Arial, sans-serif">
+  <rect x="3" y="3" width="554" height="54" rx="12" fill="#a3e635" stroke="#0b0b0f" stroke-width="4"/>
+  <rect x="18" y="14" width="32" height="32" rx="7" fill="#0b0b0f"/>
+  <g transform="translate(23 19) scale(0.92)" fill="none" stroke="#a3e635" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1" fill="none"/><rect x="14" y="3" width="7" height="7" rx="1" fill="none"/><rect x="3" y="14" width="7" height="7" rx="1" fill="none"/><rect x="14" y="14" width="7" height="7" rx="1" fill="none"/></g>
+  <text x="66" y="39" font-size="26" font-weight="900" letter-spacing="0.5" fill="#0b0b0f">ARCHITECTURE</text>
+</svg>

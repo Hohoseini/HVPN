@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" fill="none" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="SideRail">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0b10"/>
+      <stop offset="0.5" stop-color="#12121a"/>
+      <stop offset="1" stop-color="#0d0d12"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4ff70"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+    <linearGradient id="greentext" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c6ff5e"/>
+    </linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#a3e635" fill-opacity="0.12"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="30" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softshadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#a3e635" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="6" y="6" width="988" height="328" rx="30" fill="url(#bg)" stroke="#a3e635" stroke-width="5"/>
+  <rect x="6" y="6" width="988" height="328" rx="30" fill="url(#dots)"/>
+  <circle cx="900" cy="40" r="150" fill="#a3e635" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="90" cy="320" r="140" fill="#7dd3fc" fill-opacity="0.07" filter="url(#glow)"/>
+  <circle cx="520" cy="300" r="120" fill="#f0abfc" fill-opacity="0.05" filter="url(#glow)"/>
+
+  <line x1="40" y1="60" x2="150" y2="60" stroke="#a3e635" stroke-width="2" stroke-opacity="0.25"/>
+  <line x1="850" y1="290" x2="960" y2="290" stroke="#a3e635" stroke-width="2" stroke-opacity="0.25"/>
+
+  <g transform="translate(80 112)" filter="url(#softshadow)">
+    <rect x="0" y="0" width="118" height="118" rx="26" fill="url(#green)" stroke="#0b0b0f" stroke-width="5"/>
+    <g transform="translate(59 59) scale(0.42) translate(-139 -87)" fill="#0b0b0f">
+      <path d="M204.443 116.854C193.075 141.7 168.049 158.997 138.924 158.997C90.2988 158.262 73.4029 117.029 73.3311 116.854H204.443Z"/>
+      <path d="M138.924 15C178.732 15.0003 211.001 47.2522 211 87.0293C210.993 94.7072 209.756 102.334 207.332 109.62H70.835C69.9423 106.835 69.3467 104.312 69.3467 104.312H169.343C175.731 104.311 181.006 101.043 183.458 95.5635C186.122 89.6007 184.994 83.3758 181.076 77.9619C176.838 72.1086 169.728 63.8922 164.805 60.1699C155.733 53.3073 144.205 52.3 134.825 51.9873L132.133 51.8877C127.784 51.7062 126.956 51.6064 104.693 51.6064V51.6152C104.693 51.6152 85.856 51.6272 76.1846 51.6475C88.5599 29.7872 111.994 15 138.924 15Z"/>
+      <path d="M177.241 91.1748C176.416 94.3667 173.877 96.9404 169.343 96.9404H67.6152C67.3529 95.0449 67.171 93.1222 67.0557 91.1748H177.241Z"/>
+      <path d="M104.673 58.8369C123.768 58.8369 127.022 58.915 131.819 59.1123C146.208 59.726 156.269 57.6306 174.968 81.7881C175.485 82.4465 175.998 83.122 176.38 83.8682H67C67.1026 81.4421 67.325 79.0211 67.668 76.6172H125.163V69.3164H69.1123C69.77 66.3355 71.1219 62.6702 72.5225 58.8896C83.342 58.8608 94.4528 58.8369 104.673 58.8369Z"/>
+    </g>
+  </g>
+
+  <text x="228" y="152" font-size="92" font-weight="900" letter-spacing="-4" fill="url(#greentext)">SideRail</text>
+  <rect x="232" y="180" width="600" height="42" rx="11" fill="url(#green)"/>
+  <text x="254" y="209" font-size="22" font-weight="800" letter-spacing="0.6" fill="#0b0b0f">XRAY-CORE VPN PANEL &#183; ONE-CLICK ON RAILWAY</text>
+
+  <g font-size="18" font-weight="800">
+    <g transform="translate(232 238)">
+      <rect x="0" y="0" width="116" height="38" rx="10" fill="#a3e635" fill-opacity="0.12" stroke="#a3e635" stroke-width="2.5"/>
+      <text x="58" y="25" text-anchor="middle" fill="#a3e635">VLESS</text>
+    </g>
+    <g transform="translate(360 238)">
+      <rect x="0" y="0" width="116" height="38" rx="10" fill="#7dd3fc" fill-opacity="0.12" stroke="#7dd3fc" stroke-width="2.5"/>
+      <text x="58" y="25" text-anchor="middle" fill="#7dd3fc">VMESS</text>
+    </g>
+    <g transform="translate(488 238)">
+      <rect x="0" y="0" width="116" height="38" rx="10" fill="#f0abfc" fill-opacity="0.12" stroke="#f0abfc" stroke-width="2.5"/>
+      <text x="58" y="25" text-anchor="middle" fill="#f0abfc">TROJAN</text>
+    </g>
+  </g>
+</svg>

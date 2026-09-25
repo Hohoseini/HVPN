@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="42" viewBox="0 0 230 42" fill="none" font-family="'Segoe UI', Arial, sans-serif">
+  <rect x="2" y="2" width="226" height="38" rx="11" fill="#a3e635" stroke="#0b0b0f" stroke-width="3"/>
+  <g transform="translate(20 12) scale(0.78)" fill="none" stroke="#0b0b0f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+  </g>
+  <text x="128" y="27" text-anchor="middle" font-size="15" font-weight="900" letter-spacing="0.4" fill="#0b0b0f">FULL LICENSE TERMS</text>
+</svg>
