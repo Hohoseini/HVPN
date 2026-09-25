@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/banner.svg" width="100%" alt="HVPN" />
+<img src=".github/banner.jpg" width="100%" alt="HVPN" />
 
 <br/>
 <br/>
