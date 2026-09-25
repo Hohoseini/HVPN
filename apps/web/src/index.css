@@ -19,6 +19,8 @@
   --duration: 40s;
 }
 
+
+
 .dark {
   --main: #a3e635;
   --overlay: rgba(0, 0, 0, 0.85);
